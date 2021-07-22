@@ -1,0 +1,8 @@
+.kitchen
+.terraform
+*.hcl
+*.pem
+*.tfstate
+*.backup
+*.lock
+chef-automate.pem
