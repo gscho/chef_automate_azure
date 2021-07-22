@@ -18,3 +18,7 @@ tags = {
 Execute terraform apply
 
     $ terraform apply -var-file=chef-automate.tfvars
+
+View the private key so you can SSH into the server
+
+    $ terraform output chef_automate_private_key
